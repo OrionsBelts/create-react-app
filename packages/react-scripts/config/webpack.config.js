@@ -404,11 +404,11 @@ module.exports = function (webpackEnv) {
               loader: require.resolve('babel-loader'),
               options: {
                 customize: require.resolve(
-                  'babel-preset-react-app/webpack-overrides'
+                  'orionsbelts-preset-react-app/webpack-overrides'
                 ),
                 presets: [
                   [
-                    require.resolve('babel-preset-react-app'),
+                    require.resolve('orionsbelts-preset-react-app'),
                     {
                       runtime: hasJsxRuntime ? 'automatic' : 'classic',
                     },
@@ -428,7 +428,7 @@ module.exports = function (webpackEnv) {
                     : isEnvDevelopment && 'development',
                   [
                     'babel-plugin-named-asset-import',
-                    'babel-preset-react-app',
+                    'orionsbelts-preset-react-app',
                     'react-dev-utils',
                     'react-scripts',
                   ]
@@ -471,7 +471,7 @@ module.exports = function (webpackEnv) {
                 compact: false,
                 presets: [
                   [
-                    require.resolve('babel-preset-react-app/dependencies'),
+                    require.resolve('orionsbelts-preset-react-app/dependencies'),
                     { helpers: true },
                   ],
                 ],
@@ -485,7 +485,7 @@ module.exports = function (webpackEnv) {
                     : isEnvDevelopment && 'development',
                   [
                     'babel-plugin-named-asset-import',
-                    'babel-preset-react-app',
+                    'orionsbelts-preset-react-app',
                     'react-dev-utils',
                     'react-scripts',
                   ]
