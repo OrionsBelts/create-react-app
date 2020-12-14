@@ -37,7 +37,7 @@
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.7",
-    "orionsbelts-preset-react-app": "^10.0.3",
+    "orionsbelts-preset-react-app": "^10.0.4",
     "bfj": "^7.0.2",
     "camelcase": "^6.1.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
