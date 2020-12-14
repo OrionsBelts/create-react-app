@@ -142,15 +142,15 @@ module.exports = function (api, opts, env) {
       // Enable loose mode to use assignment instead of defineProperty
       // See discussion in https://github.com/facebook/create-react-app/issues/4263
       [
-        require('@babel/plugin-proposal-class-properties').default,
-        {
-          loose: true,
-        },
-      ],
-      [
         require('@babel/plugin-proposal-decorators').default,
         {
           legacy: true
+        },
+      ],
+      [
+        require('@babel/plugin-proposal-class-properties').default,
+        {
+          loose: true,
         },
       ],
       // Adds Numeric Separators
